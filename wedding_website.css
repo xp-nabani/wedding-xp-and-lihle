@@ -450,30 +450,15 @@ p {
    ========================================================= */
 
 .hero {
+    position: relative;
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--white);
 
-  position: relative;
-
-  min-height: 88vh;
-
-  display: flex;
-
-  align-items: center;
-
-  justify-content: center;
-
-  text-align: center;
-
-  color: var(--white);
-
-  background:
-    url("IMG_8948.jpg")
-    center / cover
-    no-repeat;
-
-}
-
-.hero {
-    background-image: url("IMG_8948.jpg");
+    background: url("IMG_8948.jpg") center / cover no-repeat;
 }
 
 .hero-overlay {
