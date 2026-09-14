@@ -2150,20 +2150,52 @@ p {
   }
 
 
-  /* Contact */
+/* =========================
+   CONTACT
+========================= */
 
-  .contact-details {
+.contact-container {
+    text-align: center;
+}
 
-    flex-direction: column;
+.contact-details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
 
-  }
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
+    padding: 14px 28px;
 
-  .contact-divider {
+    background: var(--wine);
+    color: var(--white);
 
+    text-decoration: none;
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+
+    transition: 0.3s ease;
+}
+
+.contact-link:hover {
+    background: var(--dusty-rose);
+    color: var(--white);
+}
+
+/* Not needed because the question link is now the only item */
+.contact-divider {
     display: none;
+}
 
-  }
 
 
   /* Footer */
