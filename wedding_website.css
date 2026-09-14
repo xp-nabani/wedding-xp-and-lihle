@@ -2149,53 +2149,47 @@ p {
 
   }
 
-/* =========================
-   CONTACT
-========================= */
+<!-- =========================
+  CONTACT
+========================== -->
+<section class="wedding-section section-taupe" id="contact">
 
-.contact-container {
-    text-align: center;
-}
+  <div class="container contact-container">
 
-.contact-details {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 30px;
-}
+    <div class="section-heading light-heading">
 
-.contact-link {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+      <p class="eyebrow">
+        CONTACT
+      </p>
 
-    padding: 14px 28px;
+      <h2>
+        Questions?
+      </h2>
 
-    background: var(--wine);
-    color: var(--white);
+      <p>
+        Have a question about our wedding? We would love to hear from you.
+        Please submit your question using the form below, and we will get back
+        to you as soon as we can.
+      </p>
 
-    text-decoration: none;
-    font-size: 0.65rem;
-    font-weight: 700;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+    </div>
 
-    transition: 0.3s ease;
-}
+    <div class="contact-details">
 
-.contact-link:hover {
-    background: var(--dusty-rose);
-    color: var(--white);
-}
+      <a
+        href="PASTE_YOUR_GOOGLE_FORM_LINK_HERE"
+        class="contact-link"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ASK A QUESTION
+      </a>
 
-/* Not needed because the question link is now the only item */
-.contact-divider {
-    display: none;
-}
+    </div>
 
+  </div>
 
+</section>
 
   /* Footer */
 
