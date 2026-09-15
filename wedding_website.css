@@ -1054,57 +1054,43 @@ p {
    ========================================================= */
 
 .wedding-note {
-    max-width: 720px;
-
-    margin: 35px auto 0;
-
-    padding: 22px 30px;
+    width: 100%;
+    max-width: 750px;
+    margin: 40px auto 0 auto;
+    padding: 28px 35px;
+    box-sizing: border-box;
 
     text-align: center;
 
-    background:
-        rgba(255, 255, 255, 0.07);
-
-    border:
-        1px solid
-        rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    border-radius: 0;
 
     color: var(--white);
 }
 
-
-/* NOTE HEADING */
-
 .wedding-note strong {
     display: block;
-
-    margin-bottom: 8px;
+    margin: 0 0 10px 0;
 
     color: var(--dusty-rose);
 
+    font-family: "Montserrat", sans-serif;
     font-size: 0.68rem;
-
     font-weight: 700;
-
     letter-spacing: 0.14em;
-
     text-transform: uppercase;
 }
 
-
-/* NOTE TEXT */
-
 .wedding-note p {
-    margin: 0;
+    margin: 0 auto;
 
-    color:
-        rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.90);
 
+    font-family: "Montserrat", sans-serif;
     font-size: 0.78rem;
-
     line-height: 1.7;
 }
-
 
 /* =========================================================
    WEDDING PHOTOS
