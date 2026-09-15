@@ -884,7 +884,6 @@ p {
 
 }
 
-
 /* =========================================================
    WEDDING CELEBRATION
    ========================================================= */
@@ -905,17 +904,25 @@ p {
     color: var(--white);
 }
 
+
+/* WEDDING DETAILS */
+
 .wedding-details {
     display: grid;
 
     grid-template-columns:
-        repeat(3, 1fr);
+        repeat(4, 1fr);
 
-    gap: 25px;
+    gap: 20px;
+
+    margin-top: 45px;
 }
 
+
+/* WEDDING CARDS */
+
 .wedding-card {
-    padding: 38px 25px;
+    padding: 38px 22px;
 
     text-align: center;
 
@@ -929,6 +936,9 @@ p {
     color: var(--white);
 }
 
+
+/* ICON */
+
 .wedding-icon {
     margin-bottom: 15px;
 
@@ -936,6 +946,9 @@ p {
 
     color: var(--dusty-rose);
 }
+
+
+/* CARD LABEL */
 
 .card-label {
     margin-bottom: 10px;
@@ -949,6 +962,9 @@ p {
     color: var(--dusty-rose);
 }
 
+
+/* CARD HEADING */
+
 .wedding-card h3 {
     margin-bottom: 8px;
 
@@ -956,17 +972,23 @@ p {
         "Cormorant Garamond",
         serif;
 
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 
     font-weight: 500;
 }
+
+
+/* CARD TEXT */
 
 .wedding-card p {
     font-size: 0.78rem;
 
     color:
-        rgba(255,255,255,0.85);
+        rgba(255, 255, 255, 0.85);
 }
+
+
+/* VENUE LINK */
 
 .text-link {
     display: inline-block;
@@ -980,42 +1002,44 @@ p {
     letter-spacing: 0.10em;
 
     text-transform: uppercase;
+
+    color: var(--white);
+
+    text-decoration: none;
+
+    border-bottom:
+        1px solid
+        rgba(255, 255, 255, 0.4);
+
+    padding-bottom: 3px;
 }
 
-.wedding-note {
-    max-width: 720px;
-
-    margin: 30px auto 0;
-
-    padding: 20px 25px;
-
-    text-align: left;
-
-    background: var(--paper);
-
-    color: var(--ink);
-
-    border-left:
-        3px solid
-        var(--wine);
-
-    box-shadow:
-        0 5px 20px
-        rgba(41,35,33,0.04);
-}
-
-.wedding-note strong {
+.text-link:hover {
     color: var(--dusty-rose);
-
-    display: block;
-
-    margin-bottom: 5px;
 }
 
-.wedding-note p {
-    margin-top: 8px;
 
-    color: var(--ink);
+/* TABLET */
+
+@media (max-width: 900px) {
+
+    .wedding-details {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .wedding-details {
+        grid-template-columns:
+            1fr;
+    }
+
 }
 
 
