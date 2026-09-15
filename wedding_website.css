@@ -1049,40 +1049,61 @@ p {
 
 }
 
+```css id="b5y7p3"
+/* =========================================================
+   WEDDING NOTE
+   ========================================================= */
+
 .wedding-note {
     max-width: 720px;
 
-    margin: 30px auto 0;
+    margin: 35px auto 0;
 
-    padding: 20px 25px;
+    padding: 22px 30px;
 
-    text-align: left;
+    text-align: center;
 
-    background: var(--paper);
+    background:
+        rgba(255, 255, 255, 0.07);
 
-    color: var(--ink);
+    border:
+        1px solid
+        rgba(255, 255, 255, 0.22);
 
-    border-left:
-        3px solid
-        var(--wine);
-
-    box-shadow:
-        0 5px 20px
-        rgba(41,35,33,0.04);
+    color: var(--white);
 }
+
+
+/* NOTE HEADING */
 
 .wedding-note strong {
-    color: var(--dusty-rose);
-
     display: block;
 
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+
+    color: var(--dusty-rose);
+
+    font-size: 0.68rem;
+
+    font-weight: 700;
+
+    letter-spacing: 0.14em;
+
+    text-transform: uppercase;
 }
 
-.wedding-note p {
-    margin-top: 8px;
 
-    color: var(--ink);
+/* NOTE TEXT */
+
+.wedding-note p {
+    margin: 0;
+
+    color:
+        rgba(255, 255, 255, 0.85);
+
+    font-size: 0.78rem;
+
+    line-height: 1.7;
 }
 
 
