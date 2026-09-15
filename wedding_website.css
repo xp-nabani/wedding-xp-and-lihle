@@ -919,10 +919,10 @@ p {
 }
 
 
-/* WEDDING CARDS */
+/* WEDDING CARD */
 
 .wedding-card {
-    padding: 38px 22px;
+    padding: 38px 25px;
 
     text-align: center;
 
@@ -934,6 +934,12 @@ p {
         rgba(255, 255, 255, 0.07);
 
     color: var(--white);
+
+    min-height: 260px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -948,7 +954,7 @@ p {
 }
 
 
-/* CARD LABEL */
+/* LABEL */
 
 .card-label {
     margin-bottom: 10px;
@@ -981,6 +987,8 @@ p {
 /* CARD TEXT */
 
 .wedding-card p {
+    margin-bottom: 5px;
+
     font-size: 0.78rem;
 
     color:
@@ -993,7 +1001,8 @@ p {
 .text-link {
     display: inline-block;
 
-    margin-top: 12px;
+    margin-top: auto;
+    padding-top: 15px;
 
     font-size: 0.65rem;
 
@@ -1010,8 +1019,6 @@ p {
     border-bottom:
         1px solid
         rgba(255, 255, 255, 0.4);
-
-    padding-bottom: 3px;
 }
 
 .text-link:hover {
@@ -1041,7 +1048,6 @@ p {
     }
 
 }
-
 
 /* =========================================================
    WEDDING PHOTOS
